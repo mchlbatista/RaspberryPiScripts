@@ -11,4 +11,4 @@ if [ $? != 0 ]; then
   ip link set wlan0 down
   sleep 5
   ip link set wlan0 up
-done
+fi
